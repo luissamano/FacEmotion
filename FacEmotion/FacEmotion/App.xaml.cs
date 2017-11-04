@@ -12,8 +12,7 @@ namespace FacEmotion
         public App()
         {
             InitializeComponent();
-
-            MainPage = new FacEmotion.MainPage();
+            MainPage = new Views.HomePage();
         }
 
         protected override void OnStart()
